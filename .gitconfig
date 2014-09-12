@@ -1,0 +1,19 @@
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+	ui = true
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+  unstage = reset HEAD --
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset'
+[user]
+	name = Paul Hopton
+	email = paul@relayr.de
+[credential]
+  helper = osxkeychain
+[push]
+	default = simple
